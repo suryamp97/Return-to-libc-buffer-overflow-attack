@@ -1,4 +1,5 @@
 Execute the commands in order to reproduce the Return-to-libc buffer overflow attack (Linux terminal):
+(The video illustrates step-by-step parts of the attack)
 
 sudo sysctl -w kernel.randomize_va_space=0
 
