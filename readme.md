@@ -1,3 +1,5 @@
+Execute the commands in order to reproduce the Return-to-libc buffer overflow attack (Linux terminal):
+
 sudo sysctl -w kernel.randomize_va_space=0
 
 cat vulnerable.c
